@@ -19,6 +19,8 @@ fetch(scripturl).then(r=>r.text()).then(s=>{var e=document.createElement('script
 ```
 4. Inicie o jogo!
 
+**Esse bot foi escrito em JavaScript apenas para fins educacionais, eu permito a modificação para aprimorar o bot, mas deve adicionar meu repositório como créditos.**
+
 ## Autor
 
 - henrydeev / henrydxd
