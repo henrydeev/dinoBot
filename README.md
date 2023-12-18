@@ -14,7 +14,8 @@ Consegui reduzir bastante o código encontrando uma fórmula para calcular a dis
 2. Pressione "F12" e vá para "Console"
 3. Copie e cole o seguinte texto e pressione Enter.
 ```js
-var scriptUrl='https://raw.githubusercontent.com/henrydeev/dinoBot/main/dinoBot.txt';fetch(scriptUrl).then(response=>response.text()).then(script=>{var scriptElement=document.createElement('script');scriptElement.innerHTML=script;document.head.appendChild(scriptElement);}).catch(error=>{console.error('Ocorreu um erro ao carregar o script:',error);});
+var scripturl='https://raw.githubusercontent.com/henrydeev/dinoBot/main/dinoBot.txt';
+fetch(scripturl).then(r=>r.text()).then(s=>{var e=document.createElement('script');e.innerHTML=s;document.head.appendChild(e);}).catch(e=>console.error('Erro ao carregar o script:',e));
 ```
 4. Inicie o jogo!
 
